@@ -197,6 +197,11 @@ iframe {
     border-radius: 20px;
 }
 
+.myMap {
+    height: 100%;
+    border-radius: 0;
+}
+
 .slick-dots li.slick-active button::before {
     opacity: 1;
     color: #2677A7;
@@ -468,6 +473,28 @@ iframe {
 
 .btn.btn-outline-info {
     border: 2px solid;
+}
+
+.form-control:focus {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.scroll-card {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.date.border-start.border-end.p-4 {
+    height: 135px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date * {
+    line-height: 1;
 }
 
 
