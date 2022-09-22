@@ -146,6 +146,43 @@ $('.slider-1').slick({
     ]
 });
 
+$('.slider-img').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    arrows: true,
+    prevArrow: '<button class="btn prevBtn"><i class="fa fa-caret-left"></i></button>',
+    nextArrow: '<button class="btn nextBtn"><i class="fa fa-caret-right"></i></button>',
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+
+    ]
+});
+
 
 
 $('.mapslider').slick({
@@ -155,6 +192,19 @@ $('.mapslider').slick({
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
+});
+
+$('.heroSlider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: '<button class="btn prevBtn1"><i class="fa fa-caret-left"></i></button>',
+    nextArrow: '<button class="btn nextBtn1"><i class="fa fa-caret-right"></i></button>',
+    centerMode: true,
 });
 
 

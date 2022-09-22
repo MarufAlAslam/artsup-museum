@@ -497,6 +497,41 @@ iframe {
     line-height: 1;
 }
 
+.btn.prevBtn1.slick-arrow {
+    position: absolute;
+    left: 10%;
+    z-index: 100;
+    background: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.nextBtn1.slick-arrow {
+    position: absolute;
+    right: 10%;
+    z-index: 100;
+    background: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-img .slick-arrow {
+    top: 115px;
+}
 
 @media screen and (max-width: 767px) {
     .sideNav {
