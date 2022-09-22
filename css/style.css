@@ -872,4 +872,8 @@ section.white-card.py-5 .card {
     .fs-34 {
         font-size: 28px;
     }
+
+    .blueCard.py-5.footer .d-flex button {
+        min-width: 160px;
+    }
 }
