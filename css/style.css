@@ -533,6 +533,34 @@ iframe {
     top: 115px;
 }
 
+
+/* mods */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.footer .container {
+    max-width: 1100px;
+}
+
+.footer .col-md-7 {
+    padding-right: 90px;
+}
+
+.footer label.ms-2 {
+    font-size: 12px;
+}
+
+.footer .form-control {
+    border-radius: 15px !important;
+    height: 50px;
+}
+
+.footer form .btn.btn-info.rounded-pill {
+    padding: 0 25px;
+    /* border-radius: 15px !important; */
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
@@ -643,5 +671,38 @@ iframe {
         text-align: center !important;
         justify-content: center !important;
         margin-top: 20px;
+    }
+
+
+
+
+    /* mods */
+    .blueCard .img-fluid {
+        max-width: 25%;
+        margin-bottom: 20px;
+    }
+
+    .contents.ps-4 {
+        padding: 0 !important;
+    }
+
+    .fs-48 {
+        font-size: 35px;
+    }
+
+    .blueCard .container.px-5 {
+        padding: 20px !important;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .card-body.px-5 {
+        padding: 20px !important;
+    }
+
+    .cards .btn.fs-14.text-white.p-0 {
+        text-align: left;
     }
 }
