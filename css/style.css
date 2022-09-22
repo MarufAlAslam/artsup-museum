@@ -577,6 +577,10 @@ section.white-card.py-5 .card {
     top: 350px !important;
 }
 
+.info .card.w-75.mx-auto.border-0.overflow-hidden.bg-transparent {
+    box-shadow: unset !important;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
@@ -785,7 +789,15 @@ section.white-card.py-5 .card {
     }
 
     .slider-1.m-slider-2.slick-initialized.slick-slider .col-md-9 {
-        margin-top: ;
+        /* margin-top: ; */
         padding-top: 20px !important;
+    }
+
+    .card.w-75.mx-auto.border-0.overflow-hidden.bg-transparent {
+        width: 100% !important;
+    }
+
+    .card-body.pt-5 {
+        padding: 0 !important;
     }
 }

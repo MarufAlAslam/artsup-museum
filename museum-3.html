@@ -104,9 +104,9 @@
     <section class="topbar py-3">
         <div class="container">
             <div class="text-center position-relative">
-                <button class="btn backBtn">
+                <!-- <button class="btn backBtn">
                     <i class="fa fa-arrow-left"></i>
-                </button>
+                </button> -->
                 <img src="img/logo.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -229,25 +229,29 @@
                     <button class="btn btn-blue rounded-pill px-4">Mostra tutto</button>
                 </div>
                 <div class="col-md-9 bg-custom-3 p-4">
-                    <div class="d-flex flex-wrap">
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1 active">
-                            Tutte
-                        </button>
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1">
-                            Arte antica
-                        </button>
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1">
-                            Pittura ad olio
-                        </button>
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1">
-                            Scultura
-                        </button>
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1">
-                            Affresco
-                        </button>
-                        <button class="btn btn-outline-info me-3 border-info border text-white me-1">
-                            Porcellana
-                        </button>
+                    <div class="row">
+                        <div class="col-md-6 p-2">
+                            <div class="d-flex flex-wrap">
+                                <button class="btn btn-outline-info me-3 border-info border text-white me-1 active">
+                                    Tutto
+                                </button>
+                                <button class="btn btn-outline-info me-3 border-info border text-white me-1">
+                                    Mostre
+                                </button>
+                                <button class="btn btn-outline-info me-3 border-info border text-white me-1">
+                                    Eventi
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-3 p-2 pe-4">
+                            <form action="">
+                                <select name="" class="form-select" id="">
+                                    <option value="">
+                                        In corso
+                                    </option>
+                                </select>
+                            </form>
+                        </div>
                     </div>
 
                     <div class="slider mt-4">
@@ -347,6 +351,7 @@
     <section class="info py-5">
         <div class="container">
             <div class="card w-75 mx-auto border-0 overflow-hidden bg-transparent">
+                <h2 class="mb-4 fw-semibold">Info e orari</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61379394.455441184!2d-67.48156512314463!3d20.12148923922623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478717843982bd97%3A0x1da3fde5655507b4!2sTorre%20Castellana!5e0!3m2!1sen!2sbd!4v1663400686637!5m2!1sen!2sbd"
                     style="border:0;" allowfullscreen="" loading="lazy"
