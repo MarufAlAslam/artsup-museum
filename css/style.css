@@ -561,6 +561,22 @@ iframe {
     /* border-radius: 15px !important; */
 }
 
+section.slider-1.m-slider-2.slick-initialized.slick-slider .slide {
+    padding: 0 !important;
+}
+
+.slider-1.m-slider-2 .col-md-9.bg-custom-3.p-4 {
+    padding-top: 0 !important;
+}
+
+section.white-card.py-5 .card {
+    box-shadow: unset !important;
+}
+
+.customm .slick-arrow {
+    top: 350px !important;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
@@ -704,5 +720,72 @@ iframe {
 
     .cards .btn.fs-14.text-white.p-0 {
         text-align: left;
+    }
+
+    .blueCard.py-5.footer {
+        padding-bottom: 0 !important;
+    }
+
+    #nav-tabContent {
+        width: 100% !important;
+    }
+
+    #nav-tabContent {
+        width: 100% !important;
+        padding: 0 20px;
+    }
+
+    .slider-1.m-slider-1.slick-initialized.slick-slider button {
+        min-width: 120px;
+    }
+
+    .slider-1.m-slider-1.slick-initialized.slick-slider .slick-arrow {
+        display: none !important;
+    }
+
+    .slider-1.m-slider-2.slick-initialized.slick-slider .col-md-2 {
+        padding: 0 30px;
+    }
+
+    .slider-1.m-slider-2.slick-initialized.slick-slider img {
+        width: 100%;
+    }
+
+    .slider-1.m-slider-1.slick-initialized.slick-slider .slide {
+        padding: 0 !important;
+    }
+
+    .card.w-75.mx-auto.rounded.border-0 {
+        width: 100% !important;
+    }
+
+    .container.px-5 {
+        padding: 0 15px !important;
+    }
+
+    .white-card.py-5.footer {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .card.bg-transparent.w-60.mx-auto.rounded.border-0 {
+        width: 100% !important;
+    }
+
+    .card.bg-transparent.w-60.mx-auto.rounded.border-0 .card-body {
+        padding: 0 !important;
+    }
+
+    .slider-1.m-slider-1.customm.slick-initialized.slick-slider .col-md-2 {
+        padding: 30px;
+    }
+
+    .slider-1.m-slider-1.slick-initialized.slick-slider .col-md-2 {
+        padding: 30px !important;
+    }
+
+    .slider-1.m-slider-2.slick-initialized.slick-slider .col-md-9 {
+        margin-top: ;
+        padding-top: 20px !important;
     }
 }

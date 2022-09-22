@@ -233,3 +233,15 @@ $('.imgLoader').click(function () {
 
     console.log(clk)
 })
+
+var c = 0
+$('.readMore').click(function () {
+    if (c % 2 == 0) {
+        $(this).html("Il Castello Sforzesco ha origini nella seconda metà del 1300 quando i Visconti, allora signori di Milano, ne fecero edificare il nucleo originario. <span class='readLess'>[...]</span>")
+        c++
+    }
+    else {
+        $(this).html("[...]")
+        c++
+    }
+})
