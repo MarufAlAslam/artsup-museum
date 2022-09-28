@@ -195,16 +195,35 @@ $('.mapslider').slick({
 });
 
 $('.heroSlider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
-    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
     prevArrow: '<button class="btn prevBtn1"><i class="fa fa-caret-left"></i></button>',
     nextArrow: '<button class="btn nextBtn1"><i class="fa fa-caret-right"></i></button>',
     centerMode: true,
+    centerPadding: '20%',
+    responsive: [
+        {
+            breakpoint: 600,
+            centerPadding: '0%',
+            centerMode: false,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+
+    ]
 });
 
 
