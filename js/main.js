@@ -264,3 +264,9 @@ $('.readMore').click(function () {
         c++
     }
 })
+
+
+$('.btn-pay').click(function () {
+    $('.btn-pay').removeClass('active')
+    $(this).addClass('active')
+})

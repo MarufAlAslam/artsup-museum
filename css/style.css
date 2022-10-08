@@ -688,6 +688,95 @@ section.white-card.py-5 .card {
 }
 
 
+
+
+
+/* fundraising */
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+}
+
+.bg-dark {
+    background-color: #1E1E1E !important;
+}
+
+.img-fluid.w-25.mb-2 {
+    width: 40px !important;
+}
+
+.card.w-250.m-2.border-0.rounded-2.bg-custom-3 {
+    min-width: 250px;
+}
+
+td {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.newSlide .btn.prevBtn {
+    top: 120px;
+}
+
+.newSlide .btn.nextBtn {
+    top: 120px;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.img-fluid.logoImggg {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.progresss {
+    background: white;
+    height: 5px;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+.inner {
+    background: #479FD3;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.inner {
+    background: #479FD3;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.btn.times-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.scroll.text-start .card {
+    min-width: 25% !important;
+}
+
+.btn.text-white.btn-pay.active {
+    border-bottom: 4px solid #2677A7;
+    border-radius: 0;
+}
+
+.btn.text-white.btn-pay {
+    border-bottom: 4px solid transparent;
+    border-radius: 0;
+}
+
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
