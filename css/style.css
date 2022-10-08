@@ -776,6 +776,151 @@ td {
     border-radius: 0;
 }
 
+.center-slider .slide {
+    padding: 20px !important;
+}
+
+.center-slider .slick-active.slick-center {
+    transform: scale(1.2);
+}
+
+.stack-slider.py-5 {
+    padding: 100px !important;
+}
+
+.box {
+    transform: scale(1.2);
+}
+
+.top1 {
+    position: relative;
+    z-index: 10;
+}
+
+.top2 {
+    position: relative;
+    z-index: 9;
+}
+
+.box {
+    position: relative;
+}
+
+.box .content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: linear-gradient(-135deg, transparent, rgba(0, 0, 0, 0.8));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.fs-7 {
+    font-size: 7px;
+}
+
+.text-blue-1 {
+    color: rgba(71, 159, 211, 0.2);
+}
+
+.img-fluid.amImg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icon.picasso {
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    position: relative;
+}
+
+.pinkli::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FB4596;
+    transform: rotate(-0deg);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.yellowli::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FCC72E;
+    transform: rotate(-0deg);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.greenli::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #24D79F;
+    transform: rotate(-0deg);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.img-fluid.tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+
+.pink,
+.yellow,
+.green {
+    position: relative;
+    z-index: 10;
+}
+
+li:hover::before {
+    transform: rotate(-15deg);
+}
+
+.lastOne .col-md-6.p-3.py-5.position-relative {
+    border-left: 50px solid #1E1E1E;
+    padding-left: 75px !important;
+}
+
+.lastOne {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.lastOne .col-md-6 {
+    padding: 50px 0 !important;
+}
+
 
 @media screen and (max-width: 767px) {
     .sideNav {
