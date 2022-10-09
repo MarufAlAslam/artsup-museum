@@ -922,6 +922,74 @@ li:hover::before {
 }
 
 
+.btn-holder {
+    border: 2px solid #2677A7;
+    border-radius: 30px;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.bb-btn {
+    color: #2677A7;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.bb-btn.active {
+    background: #2677A7;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.map-details.ps-5.picasso {
+    position: absolute;
+    /* z-index: 100; */
+    width: 60%;
+    top: 20px;
+    /* height: 50%; */
+    border-radius: 0 30px 30px 0;
+}
+
+.dist.text-center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2677A788;
+    border-radius: 16px;
+}
+
+.ps-150 {
+    padding-left: 150px !important;
+}
+
+.map-details.ps-5.picasso {
+    position: absolute;
+    /* z-index: 100; */
+    width: 60%;
+    top: 20px;
+    /* height: 50%; */
+    border-radius: 0 30px 30px 0;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+
+.map-details.ps-5.picasso.active {
+    transform: translateX(0%);
+}
+
+button {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;

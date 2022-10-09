@@ -315,3 +315,13 @@ $('.single-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
 });
+
+
+$('.bb-btn').click(function () {
+    $('.bb-btn').removeClass('active')
+    $(this).addClass('active')
+})
+
+$('.big-map-img').click(function () {
+    $('.map-details.ps-5.picasso').addClass('active')
+})
