@@ -990,6 +990,14 @@ button {
     box-shadow: unset !important;
 }
 
+.mmpp .nextBtn {
+    top: 240px !important;
+}
+
+.mmpp .prevBtn {
+    top: 240px !important;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
