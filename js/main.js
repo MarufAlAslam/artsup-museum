@@ -325,3 +325,10 @@ $('.bb-btn').click(function () {
 $('.big-map-img').click(function () {
     $('.map-details.ps-5.picasso').addClass('active')
 })
+
+$('.acc-button').click(function () {
+    $('.acc-item').removeClass('active')
+    $(this).parent().addClass('active')
+    $('.acc-body').hide(300)
+    $(this).parent().children('.acc-body').show(300)
+})

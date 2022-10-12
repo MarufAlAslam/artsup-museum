@@ -998,6 +998,45 @@ button {
     top: 240px !important;
 }
 
+.accordion-button::after {
+    display: none;
+}
+
+.right.w-50.text-end.d-flex.justify-content-end.align-items-center .input-group {
+    width: 150px;
+    background: white;
+    color: black !important;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.acc-body {
+    width: 100% !important;
+    display: none;
+}
+
+.acc-item .fa-minus-circle {
+    display: none;
+}
+
+.acc-item.active .fa-minus-circle {
+    display: inline;
+}
+
+.acc-item.active .fa-plus-circle {
+    display: none;
+}
+
+.nav-tabs .nav-link {
+    border: unset;
+    border-bottom: 4px solid transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    border: unset;
+    border-bottom: 4px solid #2677A7 !important;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
