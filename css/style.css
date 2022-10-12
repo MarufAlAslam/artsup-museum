@@ -1037,6 +1037,95 @@ button {
     border-bottom: 4px solid #2677A7 !important;
 }
 
+/* profile */
+
+.profile {
+    min-height: 100vh;
+}
+
+.profile img {
+    min-height: 100vh;
+}
+
+.profile .col-md-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.links a {
+    border-bottom: 4px solid transparent !important;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.links a.active {
+    border-bottom: 4px solid #2677A7 !important;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.border-0.img-td {
+    width: 85px;
+}
+
+.scroll-card-2,
+.scroll-card-3,
+.scroll-card-4 {
+    display: none;
+}
+
+.shadow-none {
+    box-shadow: unset !important;
+}
+
+.dp.d-inline-flex.m-auto {
+    width: 120px;
+    height: 120px;
+    background: #AF8FFA;
+    color: black;
+    border-radius: 50%;
+    margin: auto !important;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.dp label {
+    position: absolute;
+    /* don: 2; */
+    font-size: 20px;
+    background: #052C43;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;

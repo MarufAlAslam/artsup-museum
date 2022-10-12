@@ -332,3 +332,21 @@ $('.acc-button').click(function () {
     $('.acc-body').hide(300)
     $(this).parent().children('.acc-body').show(300)
 })
+
+$('.scroll-btn').click(function () {
+    $('.scroll-btn').removeClass('active')
+    $(this).addClass('active')
+    $('.scroll-card').hide()
+})
+$('.scroll-btn-1').click(function () {
+    $('.scroll-card-1').show()
+})
+$('.scroll-btn-2').click(function () {
+    $('.scroll-card-2').show()
+})
+$('.scroll-btn-3').click(function () {
+    $('.scroll-card-3').show()
+})
+$('.scroll-btn-4').click(function () {
+    $('.scroll-card-4').show()
+})
