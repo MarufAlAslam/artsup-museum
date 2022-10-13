@@ -1138,6 +1138,31 @@ input[type="file"] {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.img-fluid.artsupImg {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 400px;
+}
+
+.about-cards {
+    background-color: #031F30;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.about-cards .row {
+    position: relative;
+    top: -100px;
+    margin-bottom: -50px;
+}
+
+.team img {
+    height: 150px;
+}
+
 @media screen and (max-width: 767px) {
     .sideNav {
         width: 100% !important;
